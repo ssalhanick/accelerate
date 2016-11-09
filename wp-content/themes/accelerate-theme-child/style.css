@@ -17,8 +17,7 @@
    padding: 0 0.5em;
 }
 
-
-.home-page {
+.home-page, .aboutpage-hero {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 #masthead {
@@ -161,4 +160,119 @@ div#content{
 
 .nf-field-label label{
    font-size: 15px;
+}
+
+
+/* About Page */
+.aboutpage-hero{
+   height: 300px;
+   background-position: center bottom;
+}
+
+.aboutpage-hero p{
+   width: 28%;
+   margin: 0 auto;
+   text-align: center;
+   color: white;
+   padding: 5em 0;
+}
+
+.aboutpage-hero span.first-word{
+   color: #45ac9d;
+}
+
+.services-intro{
+   margin: 0 auto;
+   text-align: center;
+   width: 60%;
+   font-size: 14px;
+}
+
+.services-intro h4{
+   text-transform: uppercase;
+   font-size: 14px;
+}
+
+ul.about-us-services {
+   margin: 0!important;
+   width: 800px;
+}
+
+.about-us-services li{
+   list-style-type: none;
+   margin-bottom: 65px;
+}
+
+.about-us-services .service-container .services-image, .about-us-services .service-container .services-copy{
+   display: inline-block;
+}
+
+.about-us-services .service-container .services-image img{
+   vertical-align: top;
+}
+
+.right{
+   float: right!important;
+   clear: none!important;
+}
+
+.about-us-services .service-container .services-copy{
+   width: 67%;
+   padding-left: 3%;
+   height: 224px;
+   vertical-align: top;
+}
+
+.about-us-services .service-container .services-copy h2{
+   padding: 0.5em 0;
+   margin: 0;
+}
+
+.about-us-services .service-container .services-copy p{
+   font-size: 14px;
+}
+
+.contact-us{
+   width: 960px;
+   margin: 0 auto;
+   padding-top: 45px;
+   border-top: 1px #e3e1e2 solid;
+   text-align: center;
+}
+
+.contact-us h3, .contact-us a{
+   display: inline-block;
+}
+
+.contact-us a{
+padding: 20px 70px;
+background-color: #46ac9e;
+margin-left: 45px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+}
+
+/* 404 Styles */
+#content404 {
+   width: 730px;
+   height: 220px;
+   padding: 110px 0;
+   margin: 0 auto;
+}
+
+#content404 img{
+   float: left;
+   display: inline-block;
+}
+
+#content404 .copy404{
+   float: right;
+   display: inline-block;
+   width: 60%;
+}
+
+#content404 .copy404 h3{
+   margin-top: 0;
+   color: #46ac9e;
 }
