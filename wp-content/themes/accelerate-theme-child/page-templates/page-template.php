@@ -28,6 +28,7 @@ get_header(); ?>
 		</p>
 	</div>
 	<ul class="about-us-services">
+		
 		<?php query_posts('post_type=services&order=ASC'); ?>
 		<?php while ( have_posts() ) : the_post();
             $image_1 = get_field('image_1');

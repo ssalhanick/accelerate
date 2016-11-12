@@ -28,9 +28,10 @@
 
 }
 .blog-post {
-    width: 50%;
+    width: 45%;
+    float: left;
 }
-.blog-post h4 {
+.blog-post h4, .twitter-widget h4{
     font-size: 16px;
     font-family: 'Montserrat';
     color: #a6a6a6;
@@ -49,6 +50,19 @@
     text-transform: uppercase;
 }
 
+/* Twitter Widget */
+.widget-title{
+   margin: 36px 0 12px;
+}
+
+.twitter-widget{
+   width: 45%;
+   float: right;
+}
+
+aside h3.widget-title a{
+
+}
 
 /* Case Studies */
 div#content{
@@ -194,8 +208,9 @@ div#content{
 }
 
 ul.about-us-services {
-   margin: 0!important;
+   margin: 0 auto;
    width: 800px;
+
 }
 
 .about-us-services li{

@@ -18,6 +18,7 @@ get_header(); ?>
 	<div class="site-content">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='homepage-hero'>
+				<?php the_title(); ?>
 				<?php the_content(); ?>
 				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
 			</div>
@@ -60,6 +61,13 @@ get_header(); ?>
   				  <?php endwhile; ?>
 				  <?php wp_reset_query(); ?>
 		</div>
+		<div class="twitter-widget">
+			<h4>Recent Tweets</h4>
+			<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+				<div id="secondary" class="widget-area" role="complementary">
+				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+				</div>
+			<?php endif; ?></div>
 	</div>
 </section>
 
